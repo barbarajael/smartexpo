@@ -1,7 +1,5 @@
 # SmartExpo
 
-***
-
 Project for the course of **Mobile Programming** @ DETI-UA [2016].
 
 ***
