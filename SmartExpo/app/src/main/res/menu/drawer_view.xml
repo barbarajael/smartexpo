@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:title="@string/museu" />
+        <item
+            android:id="@+id/nav_second_fragment"
+            android:title="@string/exmuseu" />
+        <item
+            android:id="@+id/nav_third_fragment"
+            android:title="@string/news" />
+        <item
+            android:id="@+id/nav_fourth_fragment"
+            android:title="@string/fav" />
+
+        <item
+            android:id="@+id/navigation_subheader"
+            android:title="@string/saved">
+            <menu>
+                <item android:id="@+id/nav_img"
+                    android:title="@string/images" />
+                <item android:id="@+id/nav_video"
+                    android:title="@string/movies" />
+                <item android:id="@+id/nav_music"
+                    android:title="@string/music" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

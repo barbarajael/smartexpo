@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cn.smartexpo.fragments.BeaconDetectedFragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorBackgroud" >
+
+    <TextView
+        android:id="@+id/txBeacon"
+        android:text="@string/beacon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="25dp"
+        android:textColor="@color/colorText" />
+
+    <Button
+        android:id="@+id/btQRCode"
+        android:text="@string/ler_qrcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txBeacon"
+        android:textSize="20dp"
+
+        android:layout_marginTop="50dp"
+        android:clickable="true"
+        android:enabled="true"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorButtonText"
+        android:layout_gravity="center|left"
+        android:width="140dp" />
+
+    <Button
+        android:id="@+id/btNFC"
+        android:text="@string/ler_nfc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btQRCode"
+        android:textSize="20dp"
+
+        android:layout_marginTop="50dp"
+        android:clickable="true"
+        android:enabled="true"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorButtonText"
+        android:layout_gravity="center|left"
+        android:width="140dp"
+        android:onClick="lerNFC" />
+
+    <TextView
+        android:id="@+id/littleNote"
+        android:text="@string/save_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_below="@+id/btNFC"
+        android:layout_marginTop="75dp" />
+</RelativeLayout>

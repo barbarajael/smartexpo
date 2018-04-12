@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">SmartExpo</string>
+
+    <string name="action_settings">Definições</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_ok">Entendi</string>
+
+    <string name="museu">Explorar Museu</string>
+    <string name="exmuseu">Museus anteriores</string>
+    <string name="news">Notícias</string>
+    <string name="fav">Favoritos</string>
+    <string name="saved">Itens guardados</string>
+    <string name="images">Imagens</string>
+    <string name="movies">Vídeos</string>
+    <string name="music">Música</string>
+
+    <string name="exmuseus_not_found">Não foram encontrados museus anteriores.</string>
+    <string name="fav_not_found">Não foram encontrados museus favoritos.</string>
+    <string name="noticias_not_found">Não foram encontradas notícias.</string>
+
+    <string name="chegou_museu">Encontra-se em:</string>
+    <string name="nao_interesse">(Não é um ponto de interesse)</string>
+    <string name="loc_not_found">(Localização não encontrada)</string>
+    <string name="ver_mapa">Ver mapa</string>
+
+    <string name="network_not_found">Para obter o nome da localização, ligue-se à internet.</string>
+    <string name="alerta_net">Aviso - internet desligada</string>
+    <string name="net_disabled">A rede internet encontra-se desligada.
+        Para que seja possível obter o nome da sua localização atual deverá ligar a internet.</string>
+
+    <string name="beacon">Beacon detetado!</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="alerta_bluetooth">Aviso - bluetooth desligado</string>
+    <string name="bluetooth_disabled">O bluetooth encontra-se desligado.
+        Para que seja possível detetar beacons deverá ligar o bluetooth.
+        Pode fazê-lo carregando no símbolo do bluetooth na barra da aplicação.</string>
+
+    <string name="nfc">NFC</string>
+    <string name="ler_qrcode">Ler QrCode</string>
+    <string name="ler_nfc">Ler Tag NFC</string>
+    <string name="nfc_settings">Definições de NFC</string>
+    <string name="nfc_get">O NFC está desligado. Deseja continuar para as definições?</string>
+
+    <string name="nfc_unsupported">NFC não suportado</string>
+    <string name="nfc_disabled">O NFC está desligado.</string>
+    <string name="nfc_encostar">Encoste o dispositivo à tag</string>
+
+    <string name="save_img">(Deve fazer download da imagem)</string>
+    <string name="add_img">Adicionar imagem</string>
+    <string name="img_too_big">Imagem não adicionada: tamanho demasiado grande.</string>
+    <string name="img_removed">Imagem eliminada</string>
+
+    <string name="gps_settings">Definições de GPS</string>
+    <string name="gps_disabled">O GPS está desligado. Deseja continuar para as definições?</string>
+
+    <string name="title_activity_nav_draw">NavDrawAct</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_ranging">RangingActivity</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cn.smartexpo.fragments.MuseuFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroud">
+
+    <TextView
+        android:id="@+id/txFirst"
+        android:text="@string/chegou_museu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        android:textSize="25dp"
+        android:textColor="@color/colorText" />
+
+    <TextView
+        android:id="@+id/txPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txFirst"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textColor="@color/colorText" />
+
+    <Button
+        android:id="@+id/btMapa"
+        android:text="@string/ver_mapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+
+        android:layout_below="@+id/txPlace"
+        android:layout_marginTop="100dp"
+        android:clickable="true"
+        android:enabled="true"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorButtonText"
+        android:layout_gravity="center|left"
+        android:width="130dp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_nfc"
+        android:icon="@drawable/nfc"
+        android:title="@string/nfc"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_bluetooth"
+        android:icon="@drawable/bluetooth"
+        android:title="@string/bluetooth"
+        app:showAsAction="ifRoom"/>
+</menu>

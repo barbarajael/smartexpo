@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cn.smartexpo.fragments.MuseuMapaFragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorBackgroud" >
+
+    <ImageView
+        android:id="@+id/imageMapa"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center|top"
+        android:src="@drawable/palacio_bolsa" />
+</RelativeLayout>
